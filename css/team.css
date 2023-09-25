@@ -1,0 +1,124 @@
+.team-content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.team {
+    height: 350px;
+    position: relative;
+    background-image: url(../images/header-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.team-content {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.team-item {
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 40px;
+    padding-top: 55px;
+    margin-bottom: 120px;
+}
+
+.team-item span {
+    color: #3ec1d5;
+}
+
+.team-item .topcard {
+    position: relative;
+    padding: 90px 50px 10px 150px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.team-item .topcard img {
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.team-item .description {
+    line-height: 1.5;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.our-team {
+    padding: 120px 0;
+}
+
+.our-team_items {
+    overflow: hidden;
+}
+
+.our-team-item {
+    float: left;
+    width: 28%;
+    display: block;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    background-color: #d1caca;
+    z-index: 3;
+}
+
+.our-team-img {
+    margin: auto;
+    position: relative;
+    width: 90%;
+}
+
+.our-team-item img {
+    width: 100%;
+}
+
+.our-team-item.mg {
+    margin: 0 5%;
+}
+
+.icon-show {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+}
+
+.our-team-item:hover .icon-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.our-team-item:hover .team-info .name {
+    color: white;
+}
+
+.our-team-item:hover .team-info span {
+    color: #3ec1d5;
+}
+
+.icon-show a {
+    margin-left: auto;
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #3ec1d5;
+    background-color: #fff;
+}
+
+.icon-show a i {
+    line-height: 40px;
+}

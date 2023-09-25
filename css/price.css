@@ -1,0 +1,115 @@
+.price {
+    background-color: #e8e8e8;
+    padding: 120px 0;
+}
+
+.pricing-plans {
+    overflow: hidden;
+}
+
+.pricing-plans .price-item {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    height: 250px;
+    padding: 30px 15px;
+}
+
+.pricing-plans .price-item {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    height: 400px;
+    padding: 30px 15px;
+}
+
+.pricing-plans .price-item .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pricing-plans .price-item .doller {
+    font-size: 30px;
+    padding: 15px 15px 0 15px;
+}
+
+.pricing-plans .price-item span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price-item.mg {
+    margin: 0 5%;
+}
+
+.pricing-list ul li {
+    list-style: none;
+}
+
+.pricing {
+    border: 2px solid #3ec1d5;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 12px auto;
+    margin: 20px auto;
+    transition: .5s;
+}
+
+.pricing-list li {
+    line-height: 1.8;
+}
+
+.pricing-item-purchase {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 1rem;
+    font-size: 18px;
+    border: 0.1rem solid #3ec1d5;
+    background-color: #3ec1d5;
+    color: white;
+    margin-top: 20px;
+}
+
+.price-item {
+    position: relative;
+    z-index: 3;
+}
+
+.effecto:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    transition: .5s;
+    opacity: .5s;
+    position: absolute;
+    z-index: -3;
+}
+
+.effecto:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.price-item:hover .title {
+    color: #3ec1d5;
+}
+
+.price-item:hover .doller {
+    color: #3ec1d5;
+    transition: 1s;
+}
+
+.price-item:hover .pricing span {
+    color: #3ec1d5;
+    transition: 1s;
+}
+
+.price-item:hover .pricing-item-purchase {
+    background: none;
+}

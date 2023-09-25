@@ -1,0 +1,43 @@
+.services {
+    padding: 120px 0;
+}
+
+.services-content {
+    overflow: hidden;
+}
+
+.services-item {
+    float: left;
+    width: 30%;
+    padding: 30px 15px 30px 70px;
+    height: 170px;
+    border: 1px solid #a8a8a8;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.services-item.mg {
+    margin: 0 5%;
+}
+
+.services-item .icon {
+    position: absolute;
+    left: 15px;
+    top: 26px;
+}
+
+.services-item .services-item-header {
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.services-item .services-item-discription {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.services-item:hover .services-item-header,
+.services-item:hover .services-item-discription {
+    color: white;
+    transition: color 1s;
+}
